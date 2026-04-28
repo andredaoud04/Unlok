@@ -1,0 +1,37 @@
+export const benchmarks = [
+  {
+    id: 'deep-squat-90',
+    name: '90s Deep Squat Hold',
+    target: 'Hold a relaxed deep squat for 90 seconds without heel lift.',
+    unlocks: ['tight-hips-reset', 'deep-squat-mobility'],
+    xp: 150,
+  },
+  {
+    id: 'toe-touch-10',
+    name: '10 Clean Toe Touch Reps',
+    target: 'Touch toes for 10 controlled reps without bouncing or knee collapse.',
+    unlocks: ['hamstring-reset', 'front-splits-foundation'],
+    xp: 150,
+  },
+  {
+    id: 'couch-2min',
+    name: '2 Minute Couch Stretch',
+    target: 'Hold each side for 2 minutes while keeping the glute squeezed.',
+    unlocks: ['tight-hips-reset', 'front-splits-foundation'],
+    xp: 200,
+  },
+  {
+    id: 'pancake-60',
+    name: '60s Pancake Fold',
+    target: 'Hold a controlled pancake fold for 60 seconds with active legs.',
+    unlocks: ['pancake-unlock'],
+    xp: 250,
+  },
+  {
+    id: 'bridge-30',
+    name: '30s Wall Bridge',
+    target: 'Hold a wall-supported bridge position for 30 seconds with steady breathing.',
+    unlocks: ['bridge-path'],
+    xp: 250,
+  },
+];

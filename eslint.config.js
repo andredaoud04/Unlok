@@ -1,0 +1,163 @@
+export const programs = [
+  {
+    id: 'tight-hips-reset',
+    name: 'Tight Hips Reset',
+    category: 'Fix something',
+    goalType: 'fix',
+    description: 'For lifters who feel blocked in squats, stiff after sitting, or jammed through the front of the hips.',
+    durationWeeks: 6,
+    sessionsPerWeek: 4,
+    estimatedMinutes: 14,
+    difficulty: 'Beginner-friendly',
+    completionXp: 500,
+    finalBenchmarkId: 'deep-squat-90',
+    tags: ['hips', 'squat', 'back pain prevention'],
+    weeklyProgression: [
+      'Week 1–2: learn positions and build consistency.',
+      'Week 3–4: add 10–15 seconds to key holds.',
+      'Week 5–6: test deep squat comfort and longer holds.',
+    ],
+    sessions: [
+      {
+        title: 'Hip Reset A',
+        stretches: [
+          { stretchId: 'deep-squat-pry', sets: 2, holdSeconds: 60, reps: 1 },
+          { stretchId: 'couch-stretch', sets: 2, holdSeconds: 45, reps: 1 },
+          { stretchId: 'hamstring-floss', sets: 2, holdSeconds: 30, reps: 10 },
+        ],
+      },
+      {
+        title: 'Hip Reset B',
+        stretches: [
+          { stretchId: 'couch-stretch', sets: 3, holdSeconds: 45, reps: 1 },
+          { stretchId: 'deep-squat-pry', sets: 2, holdSeconds: 75, reps: 1 },
+          { stretchId: 'pancake-good-morning', sets: 2, holdSeconds: 35, reps: 8 },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'front-splits-foundation',
+    name: 'Front Splits Foundation',
+    category: 'Achieve something',
+    goalType: 'achieve',
+    description: 'A realistic entry program for unlocking the positions behind front splits without forcing range too early.',
+    durationWeeks: 10,
+    sessionsPerWeek: 4,
+    estimatedMinutes: 18,
+    difficulty: 'Intermediate',
+    completionXp: 900,
+    finalBenchmarkId: 'couch-2min',
+    tags: ['splits', 'hip flexors', 'hamstrings'],
+    weeklyProgression: [
+      'Week 1–3: build hamstring and hip-flexor tolerance.',
+      'Week 4–7: extend holds and add supported split positions.',
+      'Week 8–10: benchmark long holds and controlled end-range breathing.',
+    ],
+    sessions: [
+      {
+        title: 'Splits Base A',
+        stretches: [
+          { stretchId: 'hamstring-floss', sets: 2, holdSeconds: 30, reps: 12 },
+          { stretchId: 'couch-stretch', sets: 2, holdSeconds: 60, reps: 1 },
+          { stretchId: 'front-split-lunge', sets: 2, holdSeconds: 45, reps: 1 },
+        ],
+      },
+      {
+        title: 'Splits Base B',
+        stretches: [
+          { stretchId: 'deep-squat-pry', sets: 2, holdSeconds: 60, reps: 1 },
+          { stretchId: 'front-split-lunge', sets: 3, holdSeconds: 45, reps: 1 },
+          { stretchId: 'hamstring-floss', sets: 2, holdSeconds: 35, reps: 10 },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'pancake-unlock',
+    name: 'Pancake Unlock',
+    category: 'Achieve something',
+    goalType: 'achieve',
+    description: 'For people chasing the pancake fold, middle split carryover, better compression, and cleaner calisthenics lines.',
+    durationWeeks: 8,
+    sessionsPerWeek: 3,
+    estimatedMinutes: 16,
+    difficulty: 'Intermediate',
+    completionXp: 800,
+    finalBenchmarkId: 'pancake-60',
+    tags: ['pancake', 'adductors', 'compression'],
+    weeklyProgression: [
+      'Week 1–2: open adductors and learn active leg tension.',
+      'Week 3–6: add range and controlled reps.',
+      'Week 7–8: test longer folds and active compression.',
+    ],
+    sessions: [
+      {
+        title: 'Pancake Base',
+        stretches: [
+          { stretchId: 'deep-squat-pry', sets: 1, holdSeconds: 90, reps: 1 },
+          { stretchId: 'pancake-good-morning', sets: 3, holdSeconds: 45, reps: 8 },
+          { stretchId: 'compression-pike', sets: 3, holdSeconds: 20, reps: 8 },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'upper-body-unlock',
+    name: 'Upper Body Unlock',
+    category: 'Fix something',
+    goalType: 'fix',
+    description: 'For tight shoulders, stiff lats, rounded pressing posture, and better overhead positions.',
+    durationWeeks: 6,
+    sessionsPerWeek: 3,
+    estimatedMinutes: 12,
+    difficulty: 'Beginner-friendly',
+    completionXp: 450,
+    finalBenchmarkId: 'bridge-30',
+    tags: ['shoulders', 'lats', 'chest'],
+    weeklyProgression: [
+      'Week 1–2: reduce shoulder and pec tightness.',
+      'Week 3–4: add longer lat and pec holds.',
+      'Week 5–6: test overhead comfort and bridge prep.',
+    ],
+    sessions: [
+      {
+        title: 'Upper Reset',
+        stretches: [
+          { stretchId: 'pec-doorway', sets: 2, holdSeconds: 45, reps: 1 },
+          { stretchId: 'lat-prayer', sets: 2, holdSeconds: 45, reps: 1 },
+          { stretchId: 'bridge-wall-walk', sets: 2, holdSeconds: 25, reps: 3 },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'planche-prep-mobility',
+    name: 'Planche Prep Mobility',
+    category: 'Achieve something',
+    goalType: 'achieve',
+    description: 'A compact mobility track for wrists, shoulders, chest, and compression positions used in calisthenics skill work.',
+    durationWeeks: 8,
+    sessionsPerWeek: 4,
+    estimatedMinutes: 12,
+    difficulty: 'Skill prep',
+    completionXp: 850,
+    finalBenchmarkId: 'bridge-30',
+    tags: ['planche', 'wrists', 'calisthenics'],
+    weeklyProgression: [
+      'Week 1–2: build wrist tolerance.',
+      'Week 3–6: add shoulder and chest opening.',
+      'Week 7–8: combine mobility with clean skill-prep positions.',
+    ],
+    sessions: [
+      {
+        title: 'Planche Prep',
+        stretches: [
+          { stretchId: 'wrist-extension-rock', sets: 3, holdSeconds: 30, reps: 12 },
+          { stretchId: 'pec-doorway', sets: 2, holdSeconds: 45, reps: 1 },
+          { stretchId: 'compression-pike', sets: 3, holdSeconds: 20, reps: 8 },
+        ],
+      },
+    ],
+  },
+];
